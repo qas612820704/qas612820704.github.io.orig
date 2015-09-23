@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!--Import Google Icon Font-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Italianno" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <link rel="stylesheet" href="css/preload.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="module/cssterm/css/cssterm.css">
+    <link rel="stylesheet" href="module/timeline/css/jquery.timelineMe.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>    
+    <div id="preload">
+      <div class="spinner">
+        <div class="sk-folding-cube">
+          <div class="sk-cube1 sk-cube"></div>
+          <div class="sk-cube2 sk-cube"></div>
+          <div class="sk-cube4 sk-cube"></div>
+          <div class="sk-cube3 sk-cube"></div>
+        </div>
+        <h1 class="blinker">
+          loading...
+        </h1>
+      </div>
+    </div>
+    <div class="navbar-fixed fixed">
+      <nav>
+        <div class="nav-wrapper deep-orange">
+          <div class="col s12"><a href="" class="center brand-logo">Lego's Home</a></div>
+          <div class="col s12"><a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a></div>
+          <ul class="left hide-on-med-and-down">
+            <li>
+              <a href="#experience">
+                <i class="material-icons left">explicit</i>
+                Experience
+              </a>
+            </li>
+            <li>
+              <a href="#skills">
+                <i class="material-icons left">code</i>
+                Skills
+              </a>
+            </li>
+            <li>
+              <a href="#works">
+                <i class="material-icons left">work</i>
+                Works
+              </a>
+            </li>
+          </ul>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="">
+                <i class="large material-icons left">web</i>Blog(not yet)
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="large material-icons left">contacts</i>
+                Contact me(not yet)
+              </a>
+            </li> 
+          </ul>
+          <ul class="side-nav" id="mobile-menu">
+            <li><div class="col s12"><a href="#experience">Experience</a></div></li>
+            <li><div class="col s12"><a href="#skills">Skills</a></div></li>
+            <li><div class="col s12"><a href="#works">Works</a></div></li>
+            <li><div class="col s12"><a href="">Blog(not yet)</a></div></li>
+            <li><div class="col s12"><a href="">Contact me(not yet)</a></div></li>
+          </ul>
+        </div>
+      </nav> 
+    </div> 
+    <div id="home" class="parallax-container top">
+      <div class="section">
+        <div class="container">
+          <div class="row center">
+            <div class="col s12 begin-text">
+              <p>Don't forget your original goal.</p>
+            <p>My name is Lego Chiang.<span class="cursor">... </span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img class="legosun" src="img/lego.jpg">
+      </div>
+    </div>
+    <div id="info" class="section white">
+      <div class="container">
+        <div class="row center">
+          <div class="col s12 m6 l6">
+            <img class="me" src="img/legosandcrop.jpg">
+          </div>
+          <div class="col s12 m6 l6">
+            <i class="large material-icons deep-orange-text">person_pin</i>
+            <div class="grey-text text-darken-4">
+              <h4>哈囉</h4>
+              <h4>我是江柏廷</h4>
+              <h5>
+                大家可以叫我<span class="deep-orange-text">樂高</span>或是<span class="deep-orange-text">Lego</span> 
+              </h5>
+              <h5>我很喜歡交朋友喔</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row center">
+          <div class="col s12 m4 l4 center">
+            <i class="large material-icons deep-orange-text">perm_identity</i>
+            <h4>資訊</h2>
+            <div class="col s6 center">
+              <i class="fa fa-birthday-cake fa-2x"></i>
+              <b>生於</b>
+              <p>1993/07/04</p>
+            </div>
+            <div class="col s6 center">
+              <i class="fa fa-home fa-2x"></i>
+              <b>故鄉</b>
+              <p>基隆市, 台灣</p>
+            </div>
+          </div>
+          <div class="col s12 m4 l4 center">
+            <i class="large material-icons deep-orange-text">location_on</i>
+            <h4>位置</h4>
+            <div class="col s6 center">
+              <i class="fa fa-graduation-cap fa-2x"></i>
+              <b>受教於</b>
+              <p>中興大學</p>
+              <p>應用數學系</p>
+            </div>
+            <div class="col s6 center">
+              <i class="fa fa-location-arrow fa-2x"></i>
+              <b>出沒於</b>
+              <p>台中市,南區</p>
+            </div>
+          </div>
+          <div class="col s12 m4 l4 center">
+            <i class="large material-icons deep-orange-text">supervisor_account</i>
+            <h4>課外活動</h4>
+            <div class="col s6 center">
+              <i class="fa fa-opencart fa-2x"></i>
+              <b>社團</b>
+              <p>溜冰社</p>
+            </div>
+            <div class="col s6 center">
+              <i class="fa fa-odnoklassniki fa-2x"></i>
+              <b>社團</b>
+              <p>資訊社</p>
+            </div>
+            
+            <!--
+            <a class="waves-effect waves-light btn deep-orange contact"><i class="fa fa-facebook-square"></i> Facebook</a>
+            <a class="waves-effect waves-light btn deep-orange contact"><i class="fa fa-envelope"></i> Gmail</a>
+            <a class="waves-effect waves-light btn deep-orange contact"><i class="fa fa-github"></i> Github</a>
+            <a class="waves-effect waves-light btn deep-orange contact"><i class="fa fa-trello"></i> Trello</a>
+            -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="para-serham" class="parallax-container">
+      <div class="center white-text">
+        <h2 class="slogn slogn1 black">別看傻憨傻憨的我</h2>
+        <h2 class="slogn slogn2 black">將來我要讓大家知道我的名子</h2>
+      </div>
+      <div class="parallax">
+        <img class="legosun" src="img/legolay.jpg">
+      </div>
+    </div>
+    <div id="self-intro" class="section white">
+      <div class="row container">
+        <div class="col s12 m12 l12 center">
+          <i class="large material-icons deep-orange-text">comment</i>
+          <h4>簡單的自我介紹</h4> 
+          <p class="self-intro">哈囉你好, 我是<span class="deep-orange-text">Lego</span>,</p>
+          <p class="self-intro">目前就讀於中興大學(NCHU)應用數學系大四生, <span class="deep-orange-text">沒錯!</span> 我是數學系的學生,</p>
+          <p class="self-intro">在大三在多方嘗試之下對於寫程式有了興趣, 從最剛開始初探C++,</p>
+          <p class="self-intro">到後來想起系上有教授在用debian, 於似乎接觸了GNU/Linux,</p>
+          <p class="self-intro">到現在我是<span class="deep-orange-text">Archlinux</span>的使用者,</p>
+          <p class="self-intro">在大四這年遇到貴人, 開始學習Web技術</p>
+          <p class="self-intro">學習前端技術Html, CSS, Javascript,</p>
+          <p class="self-intro">到後端程式語言Python, Php, Nodejs,</p>
+          <p class="self-intro">並用過一些Web framwork，ex: Laravel(Php)， Django(Python)...。</p>
+          <p class="self-intro">觸及範圍很廣, 但是我不敢說摸的很深,</p>
+          <p class="self-intro">近1~2年以成為全端工程師為目標邁進,</p>
+          <h5 class="self-intro"><span class="deep-orange-text">未來想成為對世界有影響的人</span>。</h5>
+        </div>
+      </div>
+    </div>
+    <div id="para-skate" class="parallax-container">
+      <div class="skate-text">
+        <h3 class="yellow skate-text1">What About Skate and Me ?</h3>
+        <h3 class="yellow skate-text2">Before I touch coding</h3>
+        <h3 class="yellow skate-text3">This is my everything</h3>
+      </div>
+      <div class="parallax">
+        <img src="img/legoskate.jpg">
+      </div>
+    </div>
+    <div id="timeline" class="section grey lighten-3">
+      <div class="row">
+        <div id="timeline-container-basic" type="text"></div>
+      </div>
+    </div>
+    <div id="skill" class="section">
+      <div class="row container">
+        <div class="col s12 deep-orange-text center">
+          <i class="large material-icons">assignment_ind</i>
+          <h4>技能</h4>
+        </div>
+        <div class="col s12 m6">
+          <div class="col s12"><h5 class="left">Front End</h5></div>
+          <div class="row">
+            <div class="col s3">Html</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="8">
+                <div class="rank deep-orange">
+                  Great
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s3">CSS</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="5">
+                <div class="rank deep-orange">
+                  OK
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s3">Javascript</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="6">
+                <div class="rank deep-orange">
+                  Good
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s3">jQuery</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="6">
+                <div class="rank deep-orange">
+                  Good
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="col s12"><h5 class="left">Back End</h5></div>
+          <div class="row">
+            <div class="col s3">Django (python)</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="8">
+                <div class="rank deep-orange">
+                  Great
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s3">Express (node.js)</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="6">
+                <div class="rank deep-orange">
+                  Good
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s3">Mongodb</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="4">
+                <div class="rank deep-orange">
+                  Doing
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s3">Nginx</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="3">
+                <div class="rank deep-orange">
+                  Doing
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s3">Linux (Debian, Archlinux)</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="6">
+                <div class="rank deep-orange">
+                  OK
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="col s12"><h5 class="left">Laguage</h5></div>
+          <div class="row">
+            <div class="col s3">C/C++</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="7">
+                <div class="rank deep-orange">
+                  Good
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s3">C++/CLI</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="5">
+                <div class="rank deep-orange">
+                  Not Bad
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s3">Python</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="6">
+                <div class="rank deep-orange">
+                  Good
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s3">Nodejs</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="6">
+                <div class="rank deep-orange">
+                  Good
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s3">Java</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="4">
+                <div class="rank deep-orange">
+                  Not Bad
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s3">Android</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="4">
+                <div class="rank deep-orange">
+                  Not Bad
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s3">OpenGL</div>
+            <div class="col s9">
+              <div class="score deep-orange lighten-4" score="4">
+                <div class="rank deep-orange">
+                  Not Bad
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="para-laptop" class="parallax-container">
+      <div class="parallax">
+        <img class="workspace" src="img/legolaptop.jpg">
+      </div>
+    </div>
+    <div id="works" class="section">
+      <div class="row center">
+        <div class="col s12 m12 l12">
+          <i class="large material-icons deep-orange-text">work</i> 
+          <h4>作品集</h4>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="work activator" src="img/clickclick.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator deep-orange-text">
+                連點小遊戲
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>抒發的好工具</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title deep-orange-text">
+                連點小遊戲
+                <i class="material-icons right">close</i>
+              </span>
+              <p>這是在迎新社團博覽會供大家完的小遊戲</p>
+              <p>
+                <a class="icon waves-effect waves-light btn deep-orange" href="http://nchuit.github.io/clickclick/" target="_blank">
+                  <i class="fa fa-home"></i>
+                  View site
+                </a>
+                <a class="icon waves-effect waves-light btn deep-orange" href="https://github.com/qas612820704/StudentRightApealSystem/tree/rework" target="_blank">
+                  <i class="fa fa-github"></i>
+                  Github
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="work activator" src="img/nchuit_borad.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator deep-orange-text">
+                資訊社首頁(排行榜)
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>大家可以上去玩喔</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title deep-orange-text">
+                資訊社首頁(排行榜)
+                <i class="material-icons right">close</i>
+              </span>
+              <p><a href="http://nchuit.github.io/" target="_blank">資訊社官網</a></p>
+              <p>這是為了社博時寫的官方網站</p>
+              <p>這是由<a href="http://pastleo.me/" target="_blank">邱冠喻(PastLeo)</a>100%純手工打造的</p>
+              <p>而我做了排行榜的部份</p>
+              <p>
+                <a class="icon waves-effect waves-light btn deep-orange" href="https://nchuit.github.io" target="_blank">
+                  <i class="fa fa-home"></i>
+                  View site
+                </a>
+                <a class="icon waves-effect waves-light btn deep-orange" href="https://github.com/NCHUIT/nchuit2015marity" target="_blank">
+                  <i class="fa fa-github"></i>
+                  Github
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="work activator" src="img/sras.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator deep-orange-text">
+                學生會-學權申訴系統
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>學生權益的申訴管道更便利</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title deep-orange-text">
+                學生會-學權申訴系統
+                <i class="material-icons right">close</i>
+              </span>
+              <p>這是由Lego Kai7 K 三人</p>
+              <p>做中學,學中做的專案</p>
+              <p>本系統使用的<span class="deep-orange-text">django</span>的框架</p>
+              <p>登入會陸續接上GoogleOAuth , <a href="https://github.com/NCHUSG/ilts" target="_blank">IltOAuth</a> ...</p>
+              <p>
+                <a class="icon waves-effect waves-light btn deep-orange" href="https://github.com/qas612820704/StudentRightApealSystem/tree/rework" target="_blank">
+                  <i class="fa fa-github"></i>
+                  Github
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="work activator" src="img/bjws.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator deep-orange-text">
+                黑傑克 Web socket
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>能讓大家一起同玩的小遊戲喔!</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title deep-orange-text">
+                黑傑克(web socket)
+                <i class="material-icons right">close</i>
+              </span>
+              <p>這是大學長<a href="http://taichunmin.idv.tw/" target="_blank">戴均民</a>提出的點子</p>
+              <p>然後由 Lego, <a href="http://jd615645.github.io/" target="_blank">杜杰</a>, 戴均民所製作的遊戲</p>
+              <p>想做這個是起源於<a href="https://chrome.com/supersyncsports/" target="_blank">Google Super Sync Sports</a></p>
+              <p>覺得很有趣 那我們就來做一個吧!</p>
+              <p>現在是Beta版 已經遊玩了</p>
+              <p>還有一些地方需要調適</p>
+              <p>
+                <a class="icon waves-effect waves-light btn deep-orange" href="https://github.com/NCHUIT/blackjack-ws/tree/develop" target="_blank">
+                <i class="fa fa-github"></i>
+                Github
+              </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="page-footer deep-orange white-text">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5><i class="material-icons">thumb_up</i> Thanks for your Watching</h5>
+                <p class="grey-text text-lighten-4">This is my self-introduction, watch more on my blogger Thanks you!</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5><i class="material-icons">call</i> Contact me</h5>
+                  <p><a class="nontrans waves-effect waves-light btn grey lighten-3 black-text" href="https://www.facebook.com/leegochiang" target="_blank"><i class="fa fa-facebook-official left"></i> Facebook</a></p>
+                  <p><a class="nontrans waves-effect waves-light btn grey lighten-3 black-text" href="https://github.com/qas612820704" target="_blank"><i class="fa fa-github left"></i> Github</a></p>
+                  <p><a class="nontrans waves-effect waves-light btn grey lighten-3 black-text" href="mailto:qas612820704@gmail.com" target="_blank"><i class="fa fa-envelope left"></i> Gmail</a></p>
+                  <p><a class="nontrans waves-effect waves-light btn grey lighten-3 black-text" href="https://twitter.com/qas612820704" target="_blank"><i class="fa fa-twitter left"></i> Twitter</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright deep-orange darken-2">
+            <div class="container">
+            © 2014 Copyright
+            </div>
+          </div>
+    </footer>
+    <div id="action-btn" class="fixed-action-btn">
+      <a class="btn-floating btn-large deep-orange">
+        <i class="large material-icons">reorder</i>
+      </a>
+      <ul>
+        <li><a scrollTo="#home" class="link btn-floating deep-orange lighten-5"><i class="blue-grey-text text-darken-4 material-icons">publish</i></i></a></li>
+        <li><a scrollTo="#info" class="link btn-floating deep-orange lighten-4"><i class="blue-grey-text text-darken-3 material-icons">person_pin</i></i></a></li>
+        <li><a scrollTo="#self-intro" class="link btn-floating deep-orange lighten-3"><i class="blue-grey-text text-darken-2 material-icons">comment</i></i></a></li>
+        <li><a scrollTo="#timeline" class="link btn-floating deep-orange lighten-2"><i class="blue-grey-text text-darken-1 material-icons">schedule</i></i></a></li>
+        <li><a scrollTo="#skill" class="link btn-floating deep-orange lighten-1 "><i class="blue-grey-text text-darken-0 material-icons">assignment_ind</i></i></a></li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/preload.js"></script>
+    <script src="http://jquery.thewikies.com/browser/jquery.browser.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+    <script src="module/cssterm/scripts/cssterm.js"></script>
+    <script src="module/timeline/js/jquery.timelineMe.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/timeline.js"></script>
+  </body>
+</html>

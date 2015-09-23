@@ -1,0 +1,151 @@
+img.legosun {
+  width: 100%;
+}
+div.parallax-container.top {
+  height: 100vh;
+}
+div.navbar-fixed.fixed {
+  position: fixed;
+  opacity: 0;
+}
+div.begin-text {
+  position: absolute;
+  top : 50%;
+  transform: translate(0px, -50%);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #212121;
+  text-shadow: 1px 1px white;
+  /*font-family: Dejava Sans Mono;*/
+  font: 400 3.5em/125% 'Italianno', Helvetica, Sans-serif;
+  font-size: 60px;
+  background-color: rgba(0,0,0,0,1);
+  -webkit-animation: 2s ease 0.5s normal none infinite blink;
+  animation: 2s ease 0.5s normal none infinite top-text-blink;
+}
+
+@-webkit-keyframes top-text-blink {  
+  0% { opacity: 1.0;}
+  50% { opacity: 0.6;}
+  100% { opacity: 1.0;}
+}
+@keyframes top-text-blink {  
+  0% { opacity: 1.0;}
+  50% { opacity: 0.6;}
+  100% { opacity: 1.0;}
+}
+
+img.me {
+  border-radius: 10%;
+  width: 90%;
+
+}
+img.skate {
+  border-radius: 10%;
+  width: 90%;
+}
+
+a.contact {
+  width: 100%;
+}
+
+.slogn {
+  position: absolute;
+  opacity: 0.6;
+  padding: 6px;
+}
+.slogn.slogn1 {
+  left: 30px;  
+  top: 10px;
+}
+.slogn.slogn2 {
+  right: 30px;
+  bottom: 10px;
+}
+
+.self-intro {
+  opacity: 0;
+}
+
+.skate-text>h3 {
+  position: absolute;
+  opacity: 0.8;
+  right: 10px;  
+}
+
+.skate-text>.skate-text1 {
+  top:10%;
+}
+.skate-text>.skate-text2 {
+  top:25%; 
+}
+.skate-text>.skate-text3 {
+  top:40%;
+}
+
+.here:after {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 2px dotted #ff0000;
+}
+
+.here {
+    margin: 10px auto;
+    width: 60%;
+    height: 100px;
+  border:1px solid #333;
+    position:relative;
+    text-align:center
+}
+
+.showMoreBtnBig {
+  width: 0px;
+  height: 0px;
+}
+
+img.school {
+  width: 200px;
+}
+
+img.timeline-photo {
+  width: 100%;
+  border-radius: 5%;
+}
+.showBtn {
+  width: 100%;
+}
+img.legonow {
+  width: 300px;
+  border-radius: 50%;
+}
+
+a.icon {
+  text-transform: none;
+}
+a.nontrans {
+  text-transform: none;
+  width: 100%;  
+}
+
+img.work {
+  width: 267px;
+  height: 225px;
+}
+
+.score {
+}
+
+.rank {
+    width: 0%;
+    text-align: center;
+}
+
+#action-btn {
+  bottom: 45px; right: 24px;
+}
