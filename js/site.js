@@ -54,8 +54,7 @@ $(function() {
   });
   $('.link').click(function() {
     var $scrollTop = $($(this).attr('scrollTo'));
-    console.log($scrollTop);
-    $('html, body').animate({
+    $('html, body').stop().animate({
         scrollTop: $scrollTop.offset().top,
     }, 2000);
   });
