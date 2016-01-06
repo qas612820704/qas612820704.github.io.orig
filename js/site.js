@@ -2,7 +2,7 @@ $(function() {
   $(".button-collapse").sideNav();
   $('.parallax').parallax();
   $('.scrollspy').scrollSpy();
-  var once_flag = [];
+  var once_flag = {};
   once_flag.timeline = {};
   $(window).scroll(function() {
     // var navbar_opacity = $(window).scrollTop() / 250;
@@ -11,10 +11,16 @@ $(function() {
     // $('.navbar-fixed').css('opacity', navbar_opacity);
     var bottom_of_window = $(window).scrollTop() + $(window).height(); 
 
-    var begin_text_opacity = 1 - $(window).scrollTop() / 50;
-    if(begin_text_opacity < 0)
+    var begin_text_opacity = 1 - $(window).scrollTop() / 250;
+    if (begin_text_opacity < 0)
       begin_text_opacity = 0;
-    $('div.begin-text>p').css('opacity', begin_text_opacity);
+    // $('div.begin-text>p').css('opacity', begin_text_opacity);
+    if ( $(window).scrollTop() > $('#home').outerHeight() / 9 ) {
+      $('.begin-text').animate({
+        top: '-50%',
+      }, 2000);
+    }
+
     $('.self-intro').each( function(){
       var bottom_of_object = $(this).offset().top + $(this).outerHeight() + 150;
       
