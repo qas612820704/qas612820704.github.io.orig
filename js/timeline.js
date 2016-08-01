@@ -23,27 +23,27 @@ $(function() {
       </div>',
       showMore: showMoreBtnAuto,
     },
-    {
-      type: 'smallItem',
-      label: '加入溜冰社',
-      shortContent: '\
-        <div class="col s12 center"> \
-          <img class="timeline-photo" src="img/nchuskate.jpg" alt="" /> \
-          <h5>溜冰社</h5> \
-        </div>',
-      fullContent: '\
-        <div class="col s12 center"> \
-          <img class="timeline-photo" src="img/nchuskate.jpg" alt="" /> \
-          <h5>溜冰社</h5> \
-          <p>溜冰社對我意義重大</p> \
-          <p>他就像另外一個<span class="deep-orange-text">家</span></p> \
-          <p>讓我學習</p> \
-          <p>並且</p> \
-          <p>度過一個瘋狂的大學生活</p> \
-        </div>',
-      showMore: showMoreBtn,
-      showLess: showLessBtn,
-    },
+    // {
+    //   type: 'smallItem',
+    //   label: '加入溜冰社',
+    //   shortContent: '\
+    //     <div class="col s12 center"> \
+    //       <img class="timeline-photo" src="img/nchuskate.jpg" alt="" /> \
+    //       <h5>溜冰社</h5> \
+    //     </div>',
+    //   fullContent: '\
+    //     <div class="col s12 center"> \
+    //       <img class="timeline-photo" src="img/nchuskate.jpg" alt="" /> \
+    //       <h5>溜冰社</h5> \
+    //       <p>溜冰社對我意義重大</p> \
+    //       <p>他就像另外一個<span class="deep-orange-text">家</span></p> \
+    //       <p>讓我學習</p> \
+    //       <p>並且</p> \
+    //       <p>度過一個瘋狂的大學生活</p> \
+    //     </div>',
+    //   showMore: showMoreBtn,
+    //   showLess: showLessBtn,
+    // },
     {
       type: 'milestone',
       label: '<b>2014</b>',
@@ -181,10 +181,6 @@ $(function() {
       forcePosition: 'right'
     },
     {
-      type: 'milestone',
-      label: '資訊社迎新',
-    },
-    {
       type: 'smallItem',
       label: '資訊社迎新',
       shortContent: '\
@@ -200,6 +196,44 @@ $(function() {
           <p>今年招募新的一批人</p> \
           <p>看可不可以在中間找到一些有熱血的青年</p> \
           <p>一起努力 推廣資訊!</p> \
+        </div>',
+      showMore: showMoreBtn,
+      showLess: showLessBtn,
+    },
+    {
+      type: 'smallItem',
+      label: 'MOPCON2015',
+      shortContent: '\
+        <div class="col s12 center"> \
+          <img class="timeline-photo" src="img/mopcon2015.png" alt="" /> \
+          <h5>MOPCON 小小會眾一枚</h5> \
+        </div>',
+      fullContent: '\
+        <div class="col s12 center"> \
+          <img class="timeline-photo" src="img/mopcon2015.png" alt="" /> \
+          <h5>MOPCON 小小會眾一枚</h5> \
+        </div>',
+      showMore: showMoreBtn,
+      showLess: showLessBtn,
+    },
+    {
+      type: 'milestone',
+      label: '<b>2016</b>',
+    },
+    {
+      type: 'smallItem',
+      label: 'Fukushima & Faust Game Jam 2016',
+      shortContent: '\
+        <div class="col s12 center"> \
+          <img class="timeline-photo" src="img/game_jam2016.png" alt="" /> \
+          <h5>第一次參加Game Jam 相關活動 </h5> \
+          <h5>大家都好熱情 也收穫量多</h5> \
+        </div>',
+      fullContent: '\
+        <div class="col s12 center"> \
+          <img class="timeline-photo" src="img/game_jam2016.png" alt="" /> \
+          <h5>第一次參加Game Jam 相關活動 </h5> \
+          <h5>大家都好熱情 也收穫量多</h5> \
         </div>',
       showMore: showMoreBtn,
       showLess: showLessBtn,
