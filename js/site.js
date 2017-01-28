@@ -9,21 +9,15 @@ $(function() {
     // if (navbar_opacity > 1)
     //   navbar_opacity = 1
     // $('.navbar-fixed').css('opacity', navbar_opacity);
-    var bottom_of_window = $(window).scrollTop() + $(window).height(); 
+    var bottom_of_window = $(window).scrollTop() + $(window).height();
 
     var begin_text_opacity = 1 - $(window).scrollTop() / 250;
     if (begin_text_opacity < 0)
       begin_text_opacity = 0;
-    // $('div.begin-text>p').css('opacity', begin_text_opacity);
-    if ( $(window).scrollTop() > $('#home').outerHeight() / 9 ) {
-      $('.begin-text').animate({
-        top: '-50%',
-      }, 2000);
-    }
 
     $('.self-intro').each( function(){
       var bottom_of_object = $(this).offset().top + $(this).outerHeight() + 150;
-      
+
       /* If the object is completely visible in the window, fade it it */
       if( bottom_of_window > bottom_of_object ){
         $(this).animate({'opacity':'1'},500);

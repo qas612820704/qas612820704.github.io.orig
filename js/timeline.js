@@ -240,6 +240,21 @@ $(function() {
     },
     {
       type: 'bigItem',
+      label: '<span class="grey lighten-3">September</span>',
+      shortContent: ' \
+      <div class="col s12 center"> \
+        <img class="legonow" src="img/NCTU.gif" alt="" /> \
+      </div>',
+      fullContent: '\
+      <div class="col s12 center"> \
+        <img class="legonow" src="img/NCTU.gif" alt="" /> \
+        <h4>就讀於交通大學</h4> \
+        <h5>網路工程所</h5> \
+      </div>',
+      showMore: showMoreBtnAuto,
+    },
+    {
+      type: 'bigItem',
       label: '<span class="grey lighten-3">Now</span>',
       shortContent: ' \
       <div class="col s12 center"> \

@@ -30,12 +30,12 @@ div.begin-text {
   animation: 2s ease 0.5s normal none infinite top-text-blink;
 }
 
-@-webkit-keyframes top-text-blink {  
+@-webkit-keyframes top-text-blink {
   0% { opacity: 1.0;}
   50% { opacity: 0.6;}
   100% { opacity: 1.0;}
 }
-@keyframes top-text-blink {  
+@keyframes top-text-blink {
   0% { opacity: 1.0;}
   50% { opacity: 0.6;}
   100% { opacity: 1.0;}
@@ -61,7 +61,7 @@ a.contact {
   padding: 6px;
 }
 .slogn.slogn1 {
-  left: 30px;  
+  left: 30px;
   top: 10px;
 }
 .slogn.slogn2 {
@@ -76,14 +76,14 @@ a.contact {
 .skate-text>h3 {
   position: absolute;
   opacity: 0.8;
-  right: 10px;  
+  right: 10px;
 }
 
 .skate-text>.skate-text1 {
   top:10%;
 }
 .skate-text>.skate-text2 {
-  top:30%; 
+  top:30%;
 }
 .skate-text>.skate-text3 {
   top:50%;
@@ -134,7 +134,7 @@ a.icon {
 }
 a.nontrans {
   text-transform: none;
-  width: 100%;  
+  width: 100%;
 }
 
 img.work {
