@@ -1,0 +1,20 @@
+#preview {
+  display:flex;
+  height: 100%;
+  max-height: 500px;
+  background: url('/img/lego.jpg') 10%/100% no-repeat fixed;
+  .center-item {
+    margin: auto;
+    text-shadow: 1px 1px white;
+    @import url('https://fonts.googleapis.com/css?family=Italianno');
+    font: 400 3.5em/125% 'Italianno', Helvetica, Sans-serif;
+    font-size: 60px;
+    animation: 2s ease 0.5s normal none infinite blink;
+  }
+}
+
+@keyframes blink {
+  0% { opacity: 1.0;}
+  50% { opacity: 0.6;}
+  100% { opacity: 1.0;}
+}

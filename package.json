@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/qas612820704/qas612820704.github.io#readme",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "material-ui": "^1.0.0-alpha.11",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-flexbox-grid": "^1.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
