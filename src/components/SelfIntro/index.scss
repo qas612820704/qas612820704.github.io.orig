@@ -1,0 +1,11 @@
+#self-intro {
+  #content {
+    p, h1, h2, h3 ,h4, h5, h6 {
+      opacity: 0;
+      transition: opacity 1s;
+      &.show {
+        opacity: 1;
+      }
+    }
+  }
+}

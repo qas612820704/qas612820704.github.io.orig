@@ -1,7 +1,14 @@
 #intro {
-  .avatar {
-    height: 250px;
-    width: auto;
-    border-radius: 50%;
+  .avatar-container {
+    display: flex;
+    .avatar {
+      margin: 40px auto 40px auto;
+      height: 250px;
+      width: auto;
+      border-radius: 50%;
+    }
+  }
+  .short-intro-container {
+    margin: 40px auto 40px auto;
   }
 }

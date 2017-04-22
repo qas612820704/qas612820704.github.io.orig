@@ -2,7 +2,10 @@
   display:flex;
   height: 100%;
   max-height: 500px;
-  background: url('/img/lego.jpg') 10%/100% no-repeat fixed;
+  background-image: url('/img/lego.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   .center-item {
     margin: auto;
     text-shadow: 1px 1px white;

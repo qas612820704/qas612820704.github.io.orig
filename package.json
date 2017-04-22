@@ -21,8 +21,10 @@
     "font-awesome": "^4.7.0",
     "material-ui": "^1.0.0-alpha.11",
     "react": "^15.5.4",
+    "react-autobind": "^1.0.6",
     "react-dom": "^15.5.4",
-    "react-flexbox-grid": "^1.0.2"
+    "react-flexbox-grid": "^1.0.2",
+    "react-parallax": "^1.2.7"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
